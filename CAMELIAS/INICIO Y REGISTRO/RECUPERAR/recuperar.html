@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="recuperar.css">
+</head>
+<body>
+    <video autoplay muted loop id="video-bg">
+        <source src="/INICIO Y REGISTRO/VIDEOS/registro.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay">    
+        <form action="/registro" method="POST">
+            <h2>Recuperar</h2>
+            <p class="recuperar"> Para recuperar su contraseña ingrese aquí su correo.</p>
+            <label for="correo">Email</label>
+            <input type="email" id="correo" name="correo" placeholder="@gmail.com" required>
+    
+            <button type="submit">
+                <a class="re" href="codigo.html">Recuperar</a>
+            </button>
+
+        </form>
+    </div>
+
+</body>
+</html>

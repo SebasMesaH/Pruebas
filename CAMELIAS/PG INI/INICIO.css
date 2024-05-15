@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff8da0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+.nav-links a:hover {
+    background-color: #ffa7a7;
+}
+.usuario {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    left: 80%;
+}
+.usuario a {
+    text-decoration: none;
+color: #000000
+}
+
+.intro {
+    padding: 100px;
+    text-align: center;
+    background: url('IMG/ice-cream-5928043_1920.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(30% - 20px);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.producto img {
+    width: 100%;
+    height: auto;
+}
+.producto button {
+    background-color: #dda4a2;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+.producto button:hover {
+    background-color: #d36464;
+}
+
+.footer {
+    background-color: #ff8da0;
+    padding: 20px;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+.footer a:hover {
+    color: #007bff;
+}
